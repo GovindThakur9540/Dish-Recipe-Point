@@ -1,0 +1,158 @@
+.container{
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  }
+  
+  .container button{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: transparent;
+    width: 150px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+  }
+
+  .large-container{
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 80px;
+    box-shadow: 0px 2px 8px gray;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #303004e8, #ffffff); 
+  }
+  
+  .header{
+    display: flex;
+    width: 100%;
+  }
+  .header-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+  }
+  .header-left img{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 8px black;
+  }
+  .calories{
+    color: rgb(25, 36, 1);
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  .header-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 20px;
+  }
+  .header-right h1{
+    font-size: 4rem;
+    color: rgb(39, 34, 33);
+    text-shadow: 0px 2px 3px black;
+    font-family: 'Times New Roman';
+  }
+  .labels-container{
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin-left: 4px;
+    padding: 10px;
+  }
+  .cautions{
+    margin-top:40px;
+    color: rgb(168, 29, 4);
+    text-shadow: 0px 1.5px 2px black;
+    font-family: 'Times New Roman';
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .healthLabels{
+    margin-top: 40px;
+    /* color: rgb(144, 155, 30); */
+    font-family: 'Times New Roman';
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(2, 54, 54);
+  }
+  .dietLables{
+    color: rgb(30, 71, 80);
+    text-shadow: 0px 1px 2px;
+    margin-top: 40px;
+    font-family: 'Times New Roman';
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  span{
+    color: black;
+    background-color: transparent;
+    font-weight: normal;
+  }
+  .footer{
+    display: flex;
+    width: 100%;
+  }
+  .ingrediants{
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .ingrediants h1{
+    color: rgb(255, 255, 5);
+    font-family: 'Times New Roman';
+    font-size: 4rem;
+    text-shadow: 0px 2px 4px black;
+  }
+  .ingrediants ul{
+    padding: 5px;
+    list-style: disc;
+  } 
+  .ingrediants ul li{
+    margin-top: 5px;
+    font-family: 'Times New Roman';
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .ingrediants img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+  } 
+  .recipe-link button{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 51, 77);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    height: 50px;
+    transition: 0.5s linear;
+  }
+  .recipe-link a{
+    text-decoration: none;
+    color: white;
+  }
+  .recipe-link button:hover{
+    background-color:black ;
+    color: rgb(101, 202, 253);
+    box-shadow: 0px 2px 15px rgb(101, 202, 253);
+    transform: translateY(-3px);
+    border: 1px solid black;
+  }

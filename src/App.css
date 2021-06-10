@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.fav{
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+  width: 100%;
+  min-height: 900px;
+  padding: 13px;
+}
+.fav h1{
+  color :white;
+  text-align: center;
+}
+.toast,.toast1{
+  position: fixed;
+  top: 90%;
+  left: 40%;
+  background-color:rgba(255, 68, 0, 0.796);
+  padding: 15px;
+  border-radius: 45px;
+  display: none;
+}
+.toast h3 , .toast1 h3{
+  color: white;
+}
+.inner-recipe button a{
+  color: white;
+}
+.inner-recipe button:hover a{
+  color: #203a43;
+}
